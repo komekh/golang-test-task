@@ -2,16 +2,14 @@ package main
 
 import (
 	"twitch_chat_analysis/cmd/api/app_1"
-	"twitch_chat_analysis/cmd/api/app_2"
 	"twitch_chat_analysis/cmd/api/app_3"
-	"twitch_chat_analysis/cmd/api/pkg/gredis"
 
 	"github.com/gin-gonic/gin"
 )
 
 func init() {
-	app_2.Consumer()
-	gredis.Setup()
+	// app_2.Consumer()
+	// gredis.Setup()
 }
 
 func main() {
